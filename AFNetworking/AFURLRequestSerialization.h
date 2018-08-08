@@ -428,6 +428,12 @@ forHTTPHeaderField:(NSString *)field;
 
 #pragma mark -
 
+@interface AFProtobufRequestSerializer : AFHTTPRequestSerializer
+
+@end
+
+#pragma mark -
+
 ///----------------
 /// @name Constants
 ///----------------
